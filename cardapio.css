@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    background: url(img/madeirada\ black.jpg);
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #000000;
+    color: #ffe604ec;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #000000;
+    color: #000000;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+}
+
+section {
+    padding: 1em;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+#menu > h2 {
+    text-align: center;
+    background: url(img/bg-instagram.webp);
+    color: #ffff;
+    padding: 20px;
+    
+
+    
+}
+#header{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+#header ul a {
+    padding-top: 3rem;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px; 
+    
+}
+#header ul a:hover{
+    background-color: #3333;
+    border-bottom: 4px solid  #ffc506;
+    color: #ffc506;
+    transition: 0.2s;
+}
+#contacto{
+    color: #fff;
+    font-size: 20px;
+    background-color: #000000;
+
+}
+#pizza {
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+    font-size: 30px;
+    color: #ffffff;
+}
+#menu-pizza{
+    /* alterando o id menu pizza */
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+    font-size: 30px;
+    color: #ffc506;
+    background-color: #000000;
+}
+#menu-itens{
+    font-size: 30px;
+}
+#header{
+   /* estilizacão do header com degrade  */
+    background: linear-gradient(180deg, #000000 8.33%, rgba(255, 230, 0, 0) 100%) 
+}
+#footer{
+    font-size: 15px;
+    text-align: center;
+}
+
+@media (max-width: 430px){
+    header{
+        display: none;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    #pizza h5{
+        color: #ffc506;
+        text-align: center;
+        font-size: 100px;
+    }
+
+    #p-footer{
+        display: none;
+    }
+
+    #contacto h2{
+        text-align: center;
+    }
+
+.menu-itens{
+    display: block;
+}
+
+.span{
+
+    font-size: 20px;
+}
+
+    
+}
